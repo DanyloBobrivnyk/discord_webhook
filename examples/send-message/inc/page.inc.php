@@ -8,7 +8,6 @@
 <body>
   <main>
     <h1>Discord Webhook</h1>
-    <p>&copy; Marcin "m7rlin" Stawowczyk</p>
     <div class="container">
       <form action="index.php" method="POST">
         <div class="row">

@@ -7,7 +7,7 @@ if (isset($_POST["action"]) && $_POST["action"] === "Submit") {
   require_once "../../LoadWebhook.php";
 
   $message    = $_POST["content"];
-  $username   = $_POST["username"] ?? "www.magictm.com";
+  $username   = $_POST["username"] ?? "DurkaTM";
   $avatar_url = $_POST["avatar_url"] ?? NULL;
   $tts        = $_POST["tts"] ?? false;
 
@@ -22,7 +22,7 @@ if (isset($_POST["action"]) && $_POST["action"] === "Submit") {
   ///////////////////////////////
   // alternative with chaining //
   ///////////////////////////////
-
+  
   $msg->setMessage($message)->setUsername($username)->setAvatar($avatar_url)->setTts($tts)->send();
 }
 

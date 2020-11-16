@@ -16,7 +16,7 @@ final class DiscordWebhook
 {
     private $message;
     private $url;
-    private $username = "www.magictm.com";
+    private $username = "Test Bot";
     private $avatar;
     private $embeds = [];
     private $tts;
